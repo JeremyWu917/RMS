@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{76D97F3E-FAF7-4DFC-A5F4-E7E25C6D2498}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RMS</RootNamespace>
+    <AssemblyName>RMS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>frmTitle.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common.cs" />
+    <Compile Include="FrmAddMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddMoney.Designer.cs">
+      <DependentUpon>FrmAddMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBalance.Designer.cs">
+      <DependentUpon>FrmBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBilling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBilling.Designer.cs">
+      <DependentUpon>FrmBilling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCategoryInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCategoryInfo.Designer.cs">
+      <DependentUpon>FrmCategoryInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChangeCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangeCategory.Designer.cs">
+      <DependentUpon>FrmChangeCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChangeDeskInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangeDeskInfo.Designer.cs">
+      <DependentUpon>FrmChangeDeskInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChangeProductInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangeProductInfo.Designer.cs">
+      <DependentUpon>FrmChangeProductInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChangeRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangeRoom.Designer.cs">
+      <DependentUpon>FrmChangeRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMemberInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMemberInfo.Designer.cs">
+      <DependentUpon>FrmMemberInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChangeMemberInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangeMemberInfo.Designer.cs">
+      <DependentUpon>FrmChangeMemberInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRoom.Designer.cs">
+      <DependentUpon>FrmRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginFrm.Designer.cs">
+      <DependentUpon>LoginFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyEventArgs.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAddMoney.resx">
+      <DependentUpon>FrmAddMoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBalance.resx">
+      <DependentUpon>FrmBalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBilling.resx">
+      <DependentUpon>FrmBilling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCategoryInfo.resx">
+      <DependentUpon>FrmCategoryInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChangeCategory.resx">
+      <DependentUpon>FrmChangeCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChangeDeskInfo.resx">
+      <DependentUpon>FrmChangeDeskInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChangeProductInfo.resx">
+      <DependentUpon>FrmChangeProductInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChangeRoom.resx">
+      <DependentUpon>FrmChangeRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMemberInfo.resx">
+      <DependentUpon>FrmMemberInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChangeMemberInfo.resx">
+      <DependentUpon>FrmChangeMemberInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRoom.resx">
+      <DependentUpon>FrmRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginFrm.resx">
+      <DependentUpon>LoginFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RMSBLL\RMSBLL.csproj">
+      <Project>{48fe70ae-4121-4dab-8403-27a0cfb8ca21}</Project>
+      <Name>RMSBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RMSModel\RMSModel.csproj">
+      <Project>{2e80cb20-d6b8-4788-9cdb-322d43482af8}</Project>
+      <Name>RMSModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="frmTitle.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

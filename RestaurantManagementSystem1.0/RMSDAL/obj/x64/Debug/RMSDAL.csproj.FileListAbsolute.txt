@@ -1,0 +1,9 @@
+F:\Code\04_CSharpWinForm\RestaurantManagementSystem\RestaurantManagementSystem\RMSDAL\bin\x64\Debug\RMSDAL.dll.config
+F:\Code\04_CSharpWinForm\RestaurantManagementSystem\RestaurantManagementSystem\RMSDAL\bin\x64\Debug\RMSDAL.dll
+F:\Code\04_CSharpWinForm\RestaurantManagementSystem\RestaurantManagementSystem\RMSDAL\bin\x64\Debug\RMSDAL.pdb
+F:\Code\04_CSharpWinForm\RestaurantManagementSystem\RestaurantManagementSystem\RMSDAL\bin\x64\Debug\RMSModel.dll
+F:\Code\04_CSharpWinForm\RestaurantManagementSystem\RestaurantManagementSystem\RMSDAL\bin\x64\Debug\System.Data.SQLite.DLL
+F:\Code\04_CSharpWinForm\RestaurantManagementSystem\RestaurantManagementSystem\RMSDAL\bin\x64\Debug\RMSModel.pdb
+F:\Code\04_CSharpWinForm\RestaurantManagementSystem\RestaurantManagementSystem\RMSDAL\obj\x64\Debug\RMSDAL.csproj.CopyComplete
+F:\Code\04_CSharpWinForm\RestaurantManagementSystem\RestaurantManagementSystem\RMSDAL\obj\x64\Debug\RMSDAL.dll
+F:\Code\04_CSharpWinForm\RestaurantManagementSystem\RestaurantManagementSystem\RMSDAL\obj\x64\Debug\RMSDAL.pdb

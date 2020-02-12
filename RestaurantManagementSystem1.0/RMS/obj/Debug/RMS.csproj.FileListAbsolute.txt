@@ -1,0 +1,13 @@
+E:\Code\RestaurantManagementSystem\RestaurantManagementSystem\RMS\bin\Debug\RMS.exe
+E:\Code\RestaurantManagementSystem\RestaurantManagementSystem\RMS\bin\Debug\RMS.pdb
+E:\Code\RestaurantManagementSystem\RestaurantManagementSystem\RMS\bin\Debug\RMSBLL.dll
+E:\Code\RestaurantManagementSystem\RestaurantManagementSystem\RMS\bin\Debug\RMSModel.dll
+E:\Code\RestaurantManagementSystem\RestaurantManagementSystem\RMS\bin\Debug\RMSBLL.pdb
+E:\Code\RestaurantManagementSystem\RestaurantManagementSystem\RMS\bin\Debug\RMSModel.pdb
+E:\Code\RestaurantManagementSystem\RestaurantManagementSystem\RMS\obj\Debug\RMS.csprojAssemblyReference.cache
+E:\Code\RestaurantManagementSystem\RestaurantManagementSystem\RMS\obj\Debug\RMS.Form1.resources
+E:\Code\RestaurantManagementSystem\RestaurantManagementSystem\RMS\obj\Debug\RMS.Properties.Resources.resources
+E:\Code\RestaurantManagementSystem\RestaurantManagementSystem\RMS\obj\Debug\RMS.csproj.GenerateResource.cache
+E:\Code\RestaurantManagementSystem\RestaurantManagementSystem\RMS\obj\Debug\RMS.csproj.CopyComplete
+E:\Code\RestaurantManagementSystem\RestaurantManagementSystem\RMS\obj\Debug\RMS.exe
+E:\Code\RestaurantManagementSystem\RestaurantManagementSystem\RMS\obj\Debug\RMS.pdb
